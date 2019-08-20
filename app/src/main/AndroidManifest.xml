@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ttokk.com.swproject">
+    <!-- 인터넷 사용 허가 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activity.login.DepressionActivity"></activity>
+        <activity android:name=".activity.main.ToolBar.editmemberActivity" />
+        <activity android:name=".activity.main.ToolBar.ChangeServeyActivity" />
+
+        <meta-data
+            android:name="com.facebook.accountkit.ApplicationName"
+            android:value="@string/app_name" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/FACEBOOK_APP_ID" />
+        <meta-data
+            android:name="com.facebook.accountkit.ClientToken"
+            android:value="78800aad9a2cf6861cfc013c99861ba3" />
+
+        <activity android:name=".activity.main.ToolBar.developerActivity" />
+        <activity android:name=".activity.main.dailyCheck.FoodModiActivity" />
+        <activity android:name=".activity.main.dailyCheck.FoodListActivity" />
+        <activity android:name=".activity.main.dailyCheck.FoodInfoActivity" />
+        <activity android:name=".activity.main.dailyCheck.AlcoholModiActivity" />
+        <activity android:name=".activity.main.dailyCheck.SleepModiActivity" />
+        <activity android:name=".activity.main.dailyCheck.WaterModiActivity" />
+        <activity android:name=".activity.main.dailyCheck.SmokeListActivity" />
+        <activity android:name=".activity.main.dailyCheck.SmokeActivity" />
+        <activity android:name=".activity.main.dailyCheck.AlcoholListActivity" />
+        <activity android:name=".activity.main.dailyCheck.AlcoholActivity" />
+        <activity android:name=".activity.main.dailyCheck.FoodSearchActivity" />
+        <activity android:name=".activity.main.dailyCheck.FoodActivity" />
+        <activity android:name=".activity.main.dailyCheck.SleepListActivity" />
+        <activity android:name=".activity.main.dailyCheck.SleepActivity" />
+        <activity android:name=".activity.main.dailyCheck.WaterListActivity" />
+        <activity android:name=".activity.main.dailyCheck.WaterActivity" />
+        <activity android:name=".activity.main.dailyCheck.ExerciseActivity" />
+        <activity android:name=".activity.login.ServeyStart" />
+        <activity
+            android:name=".activity.login.Splashscreen"
+            android:label="@string/app_name" />
+        <activity android:name=".activity.login.JoinActivity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".activity.login.LoginActivity" />
+        <activity android:name=".activity.login.ServeyActivity" />
+        <activity android:name=".activity.login.HealthServeyActivity">
+
+            <!-- 시작화면 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.login.informationActivity" />
+        <activity android:name=".activity.login.information2Activity" />
+        <activity android:name=".activity.main.MainActivity" />
+    </application>
+
+</manifest>

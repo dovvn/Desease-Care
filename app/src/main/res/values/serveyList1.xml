@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="serveyList1">
+        <item>신장</item>
+        <item>현재 체중</item>
+        <item>기/미혼</item>
+    </string-array>
+</resources>
